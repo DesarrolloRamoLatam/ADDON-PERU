@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/STR_Addon_PeruRamo_V1/FileContentIndex/169fd12f-ff78-402a-be5b-c660a8743803.vsidx
+*.vsidx

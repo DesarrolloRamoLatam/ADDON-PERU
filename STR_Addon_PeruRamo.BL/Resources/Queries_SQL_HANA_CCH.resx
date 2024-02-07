@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActEstadoNumerosCCH" xml:space="preserve">
+    <value>UPDATE [@STR_CCHAPRDET] SET U_CC_STDO = '?',U_CC_SLDO = '?' WHERE U_CC_CJCH = '?' AND U_CC_NMCC = '?'|UPDATE "@STR_CCHAPRDET" SET "U_CC_STDO" = '?',"U_CC_SLDO" = '?' WHERE "U_CC_CJCH" = '?' AND "U_CC_NMCC" = '?'</value>
+  </data>
+  <data name="ActEstadoReapertura" xml:space="preserve">
+    <value>EXEC STR_SP_ActualizarDatosPorReaperturaCCH '?','?'|CALL STR_SP_ActualizarDatosPorReaperturaCCH('?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ActualizarEstadoCreacion" xml:space="preserve">
+    <value>UPDATE [@STR_CCHCRGDET] SET U_CC_DEDC = '?',U_CC_ESTD = '?' WHERE DocEntry = '?' AND LineId IN (?)|UPDATE "@STR_CCHCRGDET" SET "U_CC_DEDC" = '?',"U_CC_ESTD" = '?' WHERE "DocEntry" = '?' AND "LineId" IN (?)</value>
+  </data>
+  <data name="AgruparLineasCCH" xml:space="preserve">
+    <value>EXEC STR_SP_INT_AgruparLineasCCH '?','?','?','?','?'|CALL STR_SP_INT_AgruparLineasCCH( '?','?','?','?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="GenerarCodigoCCH" xml:space="preserve">
+    <value>EXEC STR_SP_GenerarCodigo_CCH_EAR '?','?'|CALL STR_SP_GenerarCodigo_CCH_EAR('?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="GenerarDocumentoXML" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_Create_OPCH_XML'?','?','?'|CALL STR_SP_CREATE_OPCH_XML('?','?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ObtCuentaBanco" xml:space="preserve">
+    <value>SELECT T0.Account,T1.ActCurr FROM DSC1 T0 INNER JOIN OACT T1 ON T0.GLAccount = T1.AcctCode WHERE BankCode ='?' AND ActCurr = '?'|SELECT T0."Account",T1."ActCurr" FROM DSC1 T0 INNER JOIN OACT T1 ON 
+T0."GLAccount" = T1."AcctCode" WHERE "BankCode" ='?' AND "ActCurr" = '?'</value>
+  </data>
+  <data name="ObtCuentadeBancoPropio" xml:space="preserve">
+    <value>SELECT GLAccount,(SELECT ActCurr FROM OACT WHERE AcctCode=GLAccount),(SELECT AcctName FROM OACT WHERE AcctCode=GLAccount) FROM DSC1
+WHERE BankCode = '?' AND Account = '?'|SELECT "GLAccount",(SELECT "ActCurr" FROM OACT WHERE "AcctCode"="GLAccount"),(SELECT "AcctName" FROM OACT WHERE "AcctCode"="GLAccount")
+FROM DSC1 WHERE "BankCode" = '?' AND "Account" = '?'</value>
+  </data>
+  <data name="ObtCuentadeCajaChica" xml:space="preserve">
+    <value>SELECT U_BPP_ACCT FROM [@BPP_CAJASCHICAS] WHERE Code = '?'|SELECT "U_BPP_ACCT" FROM "@BPP_CAJASCHICAS" WHERE "Code" = '?'</value>
+  </data>
+  <data name="ObtDatosCuentaCCH" xml:space="preserve">
+    <value>SELECT FormatCode,AcctName FROM OACT WHERE AcctCode = '?'|SELECT "FormatCode","AcctName" FROM OACT WHERE "AcctCode" = '?'</value>
+  </data>
+  <data name="ObtFlujodeCaja" xml:space="preserve">
+    <value>SELECT CFWId, CFWName FROM OCFW | SELECT "CFWId","CFWName" FROM OCFW</value>
+    <comment>query simple</comment>
+  </data>
+  <data name="ObtListadeBancos" xml:space="preserve">
+    <value>SELECT DISTINCT  T0.BankCode,BankName FROM ODSC T0 INNER JOIN DSC1 T1 ON T0.BankCode = T1.BankCode inner join OACT T3 ON T1.GLAccount = T3.AcctCode WHERE T3.Postable = 'Y'|SELECT DISTINCT  T0."BankCode","BankName" FROM ODSC T0 INNER JOIN DSC1 T1 ON T0."BankCode" = T1."BankCode" 
+INNER JOIN OACT T3 ON T1."GLAccount" = T3."AcctCode" WHERE T3."Postable" = 'Y'</value>
+  </data>
+  <data name="ObtMonedas" xml:space="preserve">
+    <value>SELECT CurrCode,CurrName FROM OCRN | SELECT "CurrCode","CurrName" FROM OCRN</value>
+    <comment>query simple</comment>
+  </data>
+  <data name="ObtMontoApertura" xml:space="preserve">
+    <value>SELECT "U_CC_MNAP" FROM "@STR_CCHAPRDET" WHERE "U_CC_CJCH" = '?' AND "U_CC_NMCC" = '?'|SELECT "U_CC_MNAP" FROM "@STR_CCHAPRDET" WHERE "U_CC_CJCH" = '?' AND "U_CC_NMCC" = '?'</value>
+    <comment>query simple</comment>
+  </data>
+  <data name="ObtNumerosdeCajaChicaActivos" xml:space="preserve">
+    <value>EXEC STR_SP_NumerosCajaChicaActivos '?'|CALL STR_SP_NumerosCajaChicaActivos('?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ObtPagosPorNumerodeCajaChica" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_PagosRealizadosPorNumero_CCH_EAR '?','?','?'|CALL STR_SP_LOC_PagosRealizadosPorNumero_CCH_EAR('?','?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ObtSaldoCajaChica" xml:space="preserve">
+    <value>EXEC STR_SP_SaldoNumerosCajaChica '?'|CALL STR_SP_SaldoNumerosCajaChica('?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ObtTiposdeDocumentos" xml:space="preserve">
+    <value>SELECT DISTINCT T0.U_BPP_TDTD,T0.U_BPP_TDDD FROM [@BPP_TPODOC] T0 INNER JOIN [@BPP_TIPOXFORM] T1 ON T0.U_BPP_TDTD = T1.U_BPP_Tipo WHERE T1.U_BPP_Form = '141'|SELECT DISTINCT T0."U_BPP_TDTD",T0."U_BPP_TDDD" FROM "@BPP_TPODOC" T0 
+INNER JOIN "@BPP_TIPOXFORM" T1 ON T0."U_BPP_TDTD" = T1."U_BPP_Tipo" 
+WHERE T1."U_BPP_Form" = '141'</value>
+  </data>
+  <data name="ObtTotalesXCarga" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_InfoTotalesPorCargaDocumentosCCH '?'|CALL STR_SP_LOC_InfoTotalesPorCargaDocumentosCCH('?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="ValidarAperturaCCH" xml:space="preserve">
+    <value>SELECT U_BPP_APER FROM [@BPP_CAJASCHICASACC] WHERE U_BPP_USER = '?' AND Code = '?'|SELECT "U_BPP_APER" FROM "@BPP_CAJASCHICASACC" WHERE "U_BPP_USER" = '?' AND "Code" = '?'</value>
+  </data>
+  <data name="ValidarCargaCCH" xml:space="preserve">
+    <value>SELECT U_BPP_CRGD FROM [@BPP_CAJASCHICASACC] WHERE U_BPP_USER = '?' AND Code = '?'|SELECT "U_BPP_CRGD" FROM "@BPP_CAJASCHICASACC" WHERE "U_BPP_USER" = '?' AND "Code" = '?'</value>
+  </data>
+  <data name="ValidarCerrarCargaCCH" xml:space="preserve">
+    <value>SELECT U_BPP_CRGD FROM [@BPP_CAJASCHICASACC] WHERE U_BPP_USER = '?' AND Code = '?'|SELECT "U_BPP_CRCG" FROM "@BPP_CAJASCHICASACC" WHERE "U_BPP_USER" = '?' AND "Code" = '?'</value>
+  </data>
+  <data name="ValidarContabCCH" xml:space="preserve">
+    <value>SELECT U_BPP_CNTD FROM [@BPP_CAJASCHICASACC] WHERE U_BPP_USER = '?' AND Code = '?'|SELECT "U_BPP_CNTD" FROM "@BPP_CAJASCHICASACC" WHERE "U_BPP_USER" = '?' AND "Code" = '?'</value>
+  </data>
+  <data name="VerificarCantidadNrosCCH" xml:space="preserve">
+    <value>EXEC STR_SP_CantidadNumerosdeCajaChica '?' |CALL STR_SP_CantidadNumerosdeCajaChica ('?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="VerificarEstadoySaldoNroCCH" xml:space="preserve">
+    <value>SELECT U_CC_SLDO,U_CC_STDO FROM [@STR_CCHAPRDET] WHERE U_CC_CJCH = '?' AND U_CC_NMCC = '?'|SELECT "U_CC_SLDO","U_CC_STDO" FROM "@STR_CCHAPRDET" WHERE "U_CC_CJCH" = '?' AND "U_CC_NMCC" = '?'</value>
+  </data>
+  <data name="VerificarExisteDocumento" xml:space="preserve">
+    <value>EXEC STR_SP_VERIFICAR_DOCUMENTO_EXISTENTE '?','?'|CALL STR_SP_VERIFICAR_DOCUMENTO_EXISTENTE('?','?')</value>
+    <comment>SP</comment>
+  </data>
+</root>

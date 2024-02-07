@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<Menus>
+		<action type="add">
+			<Menu Checked="0" Enabled="1" FatherUID="43524" Position="0" String="Gestión de Autorización - Add-on Perú" Type="1" UniqueID="MNU02" />
+		</action>
+		<action type="add">
+			<Menu Checked ="0" Enabled="1" FatherUID="43520" Position="14" String="Add-on Perú" Type="2" UniqueID="MNU01">
+				<Menus>
+					<action type="add">
+						
+						
+						<Menu Checked ="0" Enabled="1" FatherUID="MNU01" Position="3" String="SIRE" Type="2" UniqueID="MNUSIRE">
+							<Menus>
+								<action type="add">
+									<Menu Checked="0" Enabled="1" FatherUID="MNUSIRE" Position="1" String="SIRE - Ventas" Type="1" UniqueID="MNU_SIRE_RVIEV"/>
+									<Menu Checked="0" Enabled="1" FatherUID="MNUSIRE" Position="2" String="SIRE - Compras" Type="1" UniqueID="MNU_SIRE_RCE"/>
+								</action>								
+							</Menus>														
+						</Menu>	
+					</action>
+				</Menus>
+			</Menu>
+		</action>
+	</Menus>
+</Application>
+
+

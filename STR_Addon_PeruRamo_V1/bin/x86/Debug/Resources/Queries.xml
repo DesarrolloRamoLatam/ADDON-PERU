@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <query nameid="CreaTablaSys" definition="P">
+    <sql>STR_SP_CREARTABLASYS 'LOC'</sql>
+  </query>
+  <query nameid="UpdPagoDetraccion" definition="P">
+    <sql>STR_SP_ActualizaPagoDetraccion</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="CreaTablaLog" definition="P">
+    <sql>STR_SP_CREARTABLALOG</sql>
+  </query>
+  <query nameid="ObtDetraccionesPagadas" definition="P">
+    <sql>STR_SP_DetraccionesPagadas</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtDetraccionesXPagar" definition="P">
+    <sql>STR_SP_DetraccionesXPagar</sql>
+    <params>'{0}', '{1}', '{2}', '{3}', '{4}', '{5}','{6}','{7}'</params>
+  </query>
+  <query nameid="ObtFechaAnul" definition="P">
+    <sql>STR_SP_FechaAnulacion</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtIdLog" definition="P">
+    <sql>STR_SP_GENERARIDLOG</sql>
+  </query>
+  <query nameid="InfoAsientoDestino" definition="P">
+    <sql>STR_SP_InfoAsientoDestino</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="InsTablaLog" definition="P">
+    <sql>STR_SP_INSLOG</sql>
+    <params>'{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}'</params>
+  </query>
+  <query nameid="ObtCtaSWIP" definition="P">
+    <sql>STR_SP_LISTARCTASWIP</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtCodigoDetrac" definition="P">
+    <sql>STR_SP_ObtCodigoDetrac</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtCodigoFormato" definition="P">
+    <sql>STR_SP_ObtCodigoFormato</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtCorrelativoTipoSerie" definition="P">
+    <sql>STR_SP_ObtCorrSunatTxtTipSer</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtLineaId" definition="P">
+    <sql>STR_SP_ObtLineaId</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtMoneda" definition="P">
+    <sql>STR_SP_ObtMoneda</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtNombreCuenta" definition="P">
+    <sql>STR_SP_ObtNombreCuenta</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtNumDias" definition="P">
+    <sql>STR_SP_ObtNumDias</sql>
+  </query>
+  <query nameid="ObtNumSerie" definition="P">
+    <sql> STR_SP_ObtNumSerie</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtNumSiguiente" definition="P">
+    <sql> STR_SP_ObtNumSiguiente</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtPagosEfectuados" definition="P">
+    <sql>STR_SP_ObtPagosEfectuados</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtSerieXTipo" definition="P">
+    <sql>STR_SP_ObtSerieSunat</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtSerieSunatAnul" definition="P">
+    <sql>STR_SP_ObtSerieSunatAnul</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtTipoXDefecto" definition="P">
+    <sql>STR_SP_ObtTipoDefXForm</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtTipoXFormulario" definition="P">
+    <sql>STR_SP_ObtTipoXForm</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtTipoXFormAnul" definition="P">
+    <sql>STR_SP_ObtTipoXFormAnul</sql>
+  </query>
+  <query nameid="InsPagoDetrac" definition="P">
+    <sql>STR_SP_RegistroPagoDetrac</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="UpdEstadoAnulado" definition="P">
+    <sql>STR_SP_UpdEstadoAnulado</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ValidaAnulSUNAT" definition="P">
+    <sql>STR_SP_ValidaAnulSUNAT</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ValidaRegistroSAP" definition="P">
+    <sql>STR_SP_ValidarRegistroSAP</sql>
+    <params>'{0}','{1}','{2}'</params>
+  </query>
+  <query nameid="ObtCorrelativoAnulado" definition="P">
+    <sql>STR_SP_VerNumAnul</sql>
+    <params>'{0}','{1}','{2}'</params>
+  </query>
+  <query nameid="ObtSelectDesdeLista" definition="P">
+    <sql>STR_SP_SelectDesdeLista</sql>
+    <params>'{0}'</params>
+  </query>
+
+  <query nameid="InsBppConfig" definition="I">
+    <sql>INSERT INTO "@BPP_CONFIG" (Code, Name, U_BPP_CdgAddon) values ('1', '1', '{0}')</sql>
+  </query>
+  <query nameid="ObtNombreDocFlujoCaja" definition="I">
+    <sql>SELECT CAST("CFWId" AS VARCHAR),"CFWName" FROM "OCFW" WHERE "Postable" = 'Y'</sql>
+  </query>
+  <query nameid="ObtCodRegistroEnDiario" definition="I">
+    <sql>SELECT "TrnsCode", "TrnsCodDsc" FROM OTRC</sql>
+  </query>
+  <query nameid="ObtConfiguracion" definition="I">
+    <sql>SELECT "U_STR_Concepto" AS "Concepto",CASE  "U_STR_Valor" WHEN '1' THEN 'Y' ELSE 'N' END AS "Estado" FROM "@STR_SETTINGS"</sql>
+  </query>
+  <query nameid="ObtSocioNegocioFefo" definition="I">
+    <sql>SELECT "U_STR_FEFO" FROM OCRD WHERE "CardCode" ='{0}'</sql>
+  </query>
+  <query nameid="ValidaStratSettings" definition="I">
+    <sql>SELECT "U_STR_Valor" FROM "@STR_SETTINGS" WHERE "Code" ='{0}'</sql>
+  </query>
+  <query nameid="ObtCampoTablaSys" definition="I">
+    <sql>SELECT "VAL" FROM STR_SYS WHERE ID = 'loc'</sql>
+  </query>
+  <query nameid="ObtCtaMayor" definition="I">
+    <sql>SELECT * FROM OACT WHERE "AcctCode" ='{0}'</sql>
+  </query>
+  <query nameid="ObtSeries" definition="I">
+    <sql>SELECT T0."Series" FROM NNM1 T0 INNER JOIN ONNM T1 ON T0."Series"=T1."DfltSeries" WHERE T0."ObjectCode"='30'</sql>
+  </query>
+  <query nameid="ObtCodigoAddon" definition="I">
+    <sql>SELECT TOP 1 U_BPP_CdgAddon FROM "@BPP_CONFIG"</sql>
+  </query>
+  <query nameid="UpdBppConfig" definition="I">
+    <sql>UPDATE "@BPP_CONFIG" SET U_BPP_CdgAddon ='{0}'</sql>
+  </query>
+  <query nameid="UpdStratSettings" definition="I">
+    <sql>UPDATE "@STR_SETTINGS" SET "U_STR_Valor" = '{0}' WHERE "U_STR_Concepto" = '{1}'</sql>
+  </query>
+  <query nameid="UpdTablaSys" definition="I">
+    <sql>UPDATE STR_SYS SET VAL ='{0}'</sql>
+  </query>
+
+  <query nameid="ObtNumRegTablaSTR" definition="D">
+    <tsql>SELECT "TABLE_NAME"  FROM "INFORMATION_SCHEMA"."TABLES" WHERE "TABLE_NAME" = '{0}'</tsql>
+    <hana>SELECT "SCHEMA_NAME" FROM "SYS"."OBJECTS" WHERE "OBJECT_NAME" ='{0}' AND "SCHEMA_NAME" = '{1}'</hana>
+  </query>
+  <query nameid="ObtObjetoBD" definition="D">
+    <tsql>SELECT "NAME" FROM "SYS"."OBJECTS" WHERE "NAME" ='{0}'</tsql>
+    <hana>SELECT "SCHEMA_NAME" FROM "SYS"."OBJECTS" WHERE "OBJECT_NAME" ='{0}' AND "SCHEMA_NAME" = '{1}'</hana>
+  </query>
+  <query nameid="ObtCdgCuenta" definition="D">
+    <tsql>SELECT "U_BPP_CdgCuenta" FROM "@BPP_CONFIG" WHERE U_BPP_CdgCuenta is not null</tsql>
+    <hana>SELECT "U_BPP_CdgCuenta" FROM "@BPP_CONFIG" WHERE IFNULL("U_BPP_CdgCuenta", '') != ''</hana>
+  </query>
+
+  <query nameid="ObtFacturasSinAsiento" definition="P">
+    <sql>STR_SP_FacturasSinAsiento</sql>
+    <params>'{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}'</params>
+  </query>
+  <query nameid="ObtNumeroDocumento" definition="P">
+    <sql>STR_SP_ObtNumeroDocumento</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtAddonConfig" definition="I">
+    <sql>SELECT TOP 1 "U_BPP_CdgCuenta", "U_BPP_NmbCuenta", "U_BPP_FmtCuenta", "U_BPP_NDiasDtrac", "U_BPP_CdgAddon" FROM "@BPP_CONFIG"</sql>
+  </query>
+  <query nameid="ObtCuentaMayor" definition="I">
+    <sql>SELECT TOP 1 "AcctCode" FROM OACT WHERE "FormatCode" = '{0}'</sql>
+  </query>
+
+  <query nameid="ObtStratConfig" definition="I">
+    <sql>SELECT "Code", "Name", "U_STR_Concepto", "U_STR_Descripcion", "U_STR_Valor" FROM "@STR_SETTINGS" WHERE "Code" = '{0}'</sql>
+  </query>
+  <query nameid="ObtTransferencias" definition="P">
+    <sql>STR_SP_ObtTransferencias</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtBancoPais" definition="I">
+    <sql>SELECT DISTINCT T1."Code",T1."Name" FROM ODSC T0 INNER JOIN OCRY T1 ON T0."CountryCod" = T1."Code"</sql>
+  </query>
+  <query nameid="ObtBancoCdgo" definition="I">
+    <sql>SELECT "BankCode", "BankName" FROM ODSC WHERE "CountryCod" = '{0}'</sql>
+  </query>
+  <query nameid="ObtBancoCta" definition="I">
+    <sql>SELECT "GLAccount", "Account" FROM DSC1 WHERE "BankCode" = '{0}'</sql>
+  </query>
+  <query nameid="ObtBancoMnd" definition="I">
+    <sql>SELECT T1."ActCurr" FROM DSC1 T0 INNER JOIN OACT T1 ON "GLAccount" = T1."AcctCode" WHERE "BankCode" = '{0}' AND "Account" ='{1}' </sql>
+  </query>
+
+  <query nameid="ObtRutaArchivoTxt" definition="P">
+    <sql>STR_SP_ObtRutaArchivoTxt</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtHeaderData" definition="P">
+    <sql>STR_SP_ObtHeaderData</sql>
+    <params>'{0}'</params>
+  </query>
+  <query nameid="ObtDetailData" definition="P">
+    <sql>STR_SP_ObtDetailData</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+
+  <query nameid="ObtConfigData" definition="P">
+    <sql>STR_SP_ObtConfigLocaliz</sql>
+  </query>
+  <query nameid="CrtConfigData" definition="D">
+     <tsql>
+      INSERT INTO "@STR_LC_CONF" ("Code", "Name", "U_STR_MCTC", "U_STR_SRCTC", "U_STR_MTAD") VALUES ('01', '01', '{0}','{1}', '{2}')
+    </tsql>
+    <hana>
+      INSERT INTO "@STR_LC_CONF" ("Code", "Name", "U_STR_MCTC", "U_STR_SRCTC", "U_STR_MTAD") VALUES ('01', '01', '{0}','{1}', '{2}')</hana>
+  </query>
+  
+  <query nameid="UpdtConfigData" definition="D">
+    <tsql>
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
+      ,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
+      , "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
+      , "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}' WHERE "Code" = '01'
+    </tsql>
+    <hana>
+      UPDATE "@STR_LC_CONF" SET "U_STR_MCTC" = '{0}' , "U_STR_SRCTC" = '{1}' , "U_STR_MTAD" = '{2}'
+      ,"U_STR_DIACT" = '{3}', "U_STR_DISFJ" = '{4}', "U_STR_PROV_IGV_ND" = '{5}' , "U_STR_IMPRET" = '{6}'
+      , "U_STR_IDCTA_DEB" = '{7}',"U_STR_IDCTA_CRE" = '{8}', "U_STR_FMCTA_DEB" = '{9}', "U_STR_FMCTA_CRE" = '{10}'
+      , "U_STR_RG_ACT" = '{11}', "U_STR_IMPRG" = '{12}', "U_STR_RECO_CTA" = '{13}', "U_STR_RECO_ACT" = '{14}'  WHERE "Code" = '01'</hana>
+  </query>
+  <query nameid="RegConfigData" definition="D">
+    <tsql>SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'</tsql>
+    <hana>SELECT COUNT(*) AS "Registros" FROM "@STR_LC_CONF"	WHERE "Code" = '01'</hana>
+  </query>
+  <query nameid="isCashFlowAccount" definition="D">
+    <hana>SELECT "CfwRlvnt" FROM "OACT" WHERE "FormatCode" = '{0}'</hana>
+  </query>
+  <query nameid="InfoAsientoDestinoAlternativo" definition="P">
+    <sql>STR_SP_InfoAsientoDestinoAlternativo</sql>
+    <params>'{0}','{1}'</params>
+  </query>
+  <query nameid="ObtenerFacturasPendientesAD" definition="P">
+    <sql>STR_SP_ObtFacturasPendientesAD</sql>
+    <params>'{0}','{1}','{2}'</params>
+  </query>
+  <query nameid="ObtCtasDifCambio" definition="I">
+      <sql>SELECT "APConDiffG", "APConDiffL" FROM OACP WHERE "PeriodCat" = '{0}'</sql>
+  </query>
+  <query nameid="ObtUsuarios" definition="I">
+    <sql>SELECT "USERID","U_NAME" FROM OUSR WHERE "Locked" = 'N' and "GROUPS" = 0 ORDER BY "U_NAME"</sql>
+  </query>
+ <query nameid="ObtImporteDocumento" definition="D">
+    <hana>SELECT "DocTotal" FROM STR_FN_ImporteDocumento('{0}')</hana>    
+  </query>
+  <query nameid="ObtListaMateriales" definition="I">
+    <sql>SELECT "U_STR_ItemCode","U_STR_WhsCode", "U_STR_Quantity" FROM "@STR_LC_LISTALM" WHERE "U_STR_Item"= '{0}' AND "U_STR_Almacen" = '{1}'</sql>
+  </query>
+</root>

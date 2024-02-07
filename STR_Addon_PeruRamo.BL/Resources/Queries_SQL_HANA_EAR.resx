@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActEstadoNumerosEAR" xml:space="preserve">
+    <value>UPDATE [@STR_EARAPRDET] SET U_ER_STDO = '?',U_ER_SLDO = '?' WHERE U_ER_EARN = '?' AND U_ER_NMER = '?'|UPDATE "@STR_EARAPRDET" SET "U_ER_STDO" = '?',"U_ER_SLDO" = '?' WHERE "U_ER_EARN" = '?' AND "U_ER_NMER" = '?'</value>
+  </data>
+  <data name="ActualizarEstadoCreacion" xml:space="preserve">
+    <value>UPDATE [@STR_EARCRGDET] SET U_ER_DEDC = '?',U_ER_ESTD = '?' WHERE DocEntry = '?' AND LineId IN (?)|UPDATE "@STR_EARCRGDET" SET "U_ER_DEDC" = '?',"U_ER_ESTD" = '?' WHERE "DocEntry" = '?' AND "LineId" IN (?)</value>
+  </data>
+  <data name="AgruparLineasEAR" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_AgruparLineasEAR '?','?','?','?','?'|CALL STR_SP_LOC_AgruparLineasEAR( '?','?','?','?','?')</value>
+  </data>
+  <data name="GenerarCodigoEAR" xml:space="preserve">
+    <value>EXEC STR_SP_GenerarCodigo_CCH_EAR '?','?'|CALL STR_SP_GenerarCodigo_CCH_EAR('?','?')</value>
+    <comment>SP</comment>
+  </data>
+  <data name="GenerarDocumentoXML" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_Create_OPCH_XML'?','?','?'|CALL STR_SP_CREATE_OPCH_XML('?','?','?')</value>
+  </data>
+  <data name="ObtCuentadeBancoPropio" xml:space="preserve">
+    <value>SELECT GLAccount,(SELECT ActCurr FROM OACT WHERE AcctCode=GLAccount),(SELECT AcctName FROM OACT WHERE AcctCode=GLAccount) FROM DSC1
+WHERE BankCode = '?' AND Account = '?'|SELECT "GLAccount",(SELECT "ActCurr" FROM OACT WHERE "AcctCode"="GLAccount"),(SELECT "AcctName" FROM OACT WHERE "AcctCode"="GLAccount")
+FROM DSC1 WHERE "BankCode" = '?' AND "Account" = '?'</value>
+  </data>
+  <data name="ObtCuentasdeBanco" xml:space="preserve">
+    <value>SELECT T0.Account,T1.ActCurr FROM DSC1 T0 INNER JOIN OACT T1 ON T0.GLAccount = T1.AcctCode WHERE BankCode ='?' AND ActCurr = '?'|SELECT T0."Account",T1."ActCurr" FROM DSC1 T0 INNER JOIN OACT T1 ON 
+T0."GLAccount" = T1."AcctCode" WHERE "BankCode" ='?' AND "ActCurr" = '?'</value>
+  </data>
+  <data name="ObtListadeBancos" xml:space="preserve">
+    <value>SELECT DISTINCT  T0.BankCode,BankName FROM ODSC T0 INNER JOIN DSC1 T1 ON T0.BankCode = T1.BankCode inner join OACT T3 ON T1.GLAccount = T3.AcctCode WHERE T3.Postable = 'Y'|SELECT DISTINCT  T0."BankCode","BankName" FROM ODSC T0 INNER JOIN DSC1 T1 ON T0."BankCode" = T1."BankCode" 
+INNER JOIN OACT T3 ON T1."GLAccount" = T3."AcctCode" WHERE T3."Postable" = 'Y'</value>
+  </data>
+  <data name="ObtListaSolicitudesEAR" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_ListarSolicitudesEntregaRendir '?','?'|CALL STR_SP_LOC_ListarSolicitudesEntregaRendir('?','?')  </value>
+  </data>
+  <data name="ObtMontoApertura" xml:space="preserve">
+    <value>SELECT U_ER_MNAP FROM [@STR_EARAPRDET] WHERE U_ER_EARN = '?' AND U_ER_NMER = '?'|SELECT "U_ER_MNAP" FROM "@STR_EARAPRDET" WHERE "U_ER_EARN" = '?' AND "U_ER_NMER" = '?'</value>
+  </data>
+  <data name="ObtNumerosdeEntregaaRendirActivos" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_NumerosEntregaaRendirActivos '?'|CALL STR_SP_LOC_NumerosEntregaaRendirActivos('?')</value>
+  </data>
+  <data name="ObtPagosPorNumerodeEAR" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_PagosRealizadosPorNumero_CCH_EAR '?','?','?'|CALL STR_SP_LOC_PagosRealizadosPorNumero_CCH_EAR('?','?','?')</value>
+  </data>
+  <data name="ObtSaldoEntregasaRendir" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_SaldoNumerosEntregaaRendir '?'|CALL STR_SP_LOC_SaldoNumerosEntregaaRendir('?')</value>
+  </data>
+  <data name="ObtTotalesXCarga" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_InfoTotalesPorCargaDocumentosEAR '?'|CALL STR_SP_LOC_InfoTotalesPorCargaDocumentosEAR ('?')</value>
+  </data>
+  <data name="ObtTransIdPagoaCuenta" xml:space="preserve">
+    <value>SELECT T3.TransId FROM [@STR_EARAPR] T0 INNER JOIN [@STR_EARAPRDET] T1 ON T0.DocEntry = T1.DocEntry INNER JOIN OVPM T3 ON T3.DocEntry = U_ER_DEPE
+WHERE T1.U_ER_EARN = '?' AND T1.U_ER_NMER = '?'|SELECT T3."TransId" FROM "@STR_EARAPR" T0 INNER JOIN "@STR_EARAPRDET" T1 ON T0."DocEntry" = T1."DocEntry" INNER JOIN OVPM T3 ON T3."DocEntry" = "U_ER_DEPE"
+WHERE T1."U_ER_EARN" = '?' AND T1."U_ER_NMER" = '?'</value>
+  </data>
+  <data name="ValidarCargaEAR" xml:space="preserve">
+    <value>SELECT U_ER_SCRG FROM [@STR_HEMEAR] WHERE U_empID = '?' AND U_ER_CDUS  = '?'|SELECT "U_ER_SCRG" FROM "@STR_HEMEAR" WHERE "U_empID" = '?' AND "U_ER_CDUS" = '?'</value>
+  </data>
+  <data name="ValidarContabEAR" xml:space="preserve">
+    <value>SELECT U_ER_SCNT FROM [@STR_HEMEAR] WHERE U_ER_CDUS = '?' AND U_empID = '?'|SELECT "U_ER_SCNT" FROM "@STR_HEMEAR" WHERE "U_ER_CDUS" = '?' AND "U_empID" = '?'</value>
+  </data>
+  <data name="VerificarCantidadNrosEAR" xml:space="preserve">
+    <value>SELECT COUNT('A') FROM [@STR_EARCRG] WHERE U_ER_NMRO = '?'|SELECT COUNT('A') FROM "@STR_EARCRG" WHERE "U_ER_NMRO" = '?'</value>
+  </data>
+  <data name="VerificarEstadoySaldoNroEAR" xml:space="preserve">
+    <value>SELECT U_ER_SLDO,U_ER_STDO FROM [@STR_EARAPRDET] WHERE U_ER_EARN = '?' AND U_ER_NMER = '?'|SELECT "U_ER_SLDO","U_ER_STDO" FROM "@STR_EARAPRDET" WHERE "U_ER_EARN" = '?' AND "U_ER_NMER" = '?'</value>
+  </data>
+  <data name="GenerarCodigoUnicoPorTU" xml:space="preserve">
+    <value>SELECT 'E'+RIGHT('0000'+LTRIM(RIGHT(ISNULL(MAX(Code),0),4)+1),4) AS Code FROM [?]$SELECT 'E'|| RIGHT('0000'||LTRIM(RIGHT(IFNULL(MAX("Code"),'0'),4)+1),4) FROM "?"</value>
+  </data>
+  <data name="EliminarRegistrosTU" xml:space="preserve">
+    <value>DELETE FROM [?] WHERE  ?  = '?'|DELETE FROM "?" WHERE "?" = '?'</value>
+  </data>
+  <data name="ObtDimensionesXDefecto" xml:space="preserve">
+    <value>SELECT U_ER_DFLT FROM [@STR_HEMEAR2] WHERE U_empID = '?' AND U_ER_NMBR = '?'|SELECT "U_ER_DFLT" FROM "@STR_HEMEAR2" WHERE "U_empID" = '?' AND "U_ER_NMBR" = '?'</value>
+  </data>
+  <data name="ObtAsientoCompensacion" xml:space="preserve">
+    <value>SELECT TOP 1 TransId FROM OJDT WHERE U_BPP_CtaTdoc = '?' AND U_BPP_DocKeyDest = '?'|SELECT TOP 1 "TransId" FROM OJDT WHERE "U_BPP_CtaTdoc" = '?' AND "U_BPP_DocKeyDest" = '?'</value>
+  </data>
+  <data name="ObtCodigoCtaPte" xml:space="preserve">
+    <value>SELECT TOP 1 AcctCode FROM OACT WHERE FormatCode = '?'|SELECT TOP 1 "AcctCode" FROM OACT WHERE "FormatCode" = '?'</value>
+  </data>
+  <data name="ObtDocumentosaReconciliar" xml:space="preserve">
+    <value>EXEC STR_SP_LOC_DocumentosaReconciliar '?','?'|CALL STR_SP_LOC_DocumentosaReconciliar('?','?')</value>
+  </data>
+  <data name="VerificarProveedorAsociado" xml:space="preserve">
+    <value>SELECT empID,U_CE_PVAS FROM OHEM WHERE U_CE_PVAS IS NOT NULL|SELECT "empID","U_CE_PVAS" FROM OHEM WHERE "U_CE_PVAS" IS NOT NULL</value>
+  </data>
+  <data name="ValidarCerrarCargaEAR" xml:space="preserve">
+    <value>SELECT U_ER_SCCR FROM [@STR_HEMEAR] WHERE U_empID = '?' AND U_ER_CDUS  = '?'|SELECT "U_ER_SCCR" FROM "@STR_HEMEAR" WHERE "U_empID" = '?' AND "U_ER_CDUS" = '?'</value>
+  </data>
+  <data name="ValidarRegularizarSaldosEAR" xml:space="preserve">
+    <value>SELECT U_ER_SRGL FROM [@STR_HEMEAR] WHERE U_empID = '?' AND U_ER_CDUS  = '?'|SELECT "U_ER_SRGL" FROM "@STR_HEMEAR" WHERE "U_empID" = '?' AND "U_ER_CDUS" = '?'</value>
+  </data>
+</root>
